@@ -1,22 +1,16 @@
 Assignment 3 - Replicating a Classic Experiment  
 ===
 
-Q: How do we know that bar charts are better than pie charts?  
+Q: How do we know that bar charts are "better" than pie charts?  
 A: Controlled experiments!
 
-In this assignment you'll implement a simple controlled experiment using some of the visualizations you’ve been building this semester. 
+In this assignment you'll implement a simple controlled experiment using some of the visualizations you’ve been building in this class. 
 You'll need to develop support code for the experiment sequence, results file output, and other experiment components. 
 (These are all very simple with Javascript buttons and forms.)
 The main goals for you are to a) test three competing visualizations, b) implement data generation and error calculation functions from Cleveland and McGill's 1984 paper, c) run the experiment with 10 participants, and d) do some basic analysis and reporting of the results.
 
 For this assignment you should write everything from scratch -- except for charts you've made in previous assignments.
 You may *reference* demo programs from books or the web, and if you do please provide a References section with links at the end of your Readme.
-
-Teams
----
-
-You can have choose to have (1) teammate.
-If you choose to do so, add a **Collaboration** section with a single paragraph per teammate describing what aspects each of you contributed to the most.
 
 Requirements
 ---
@@ -38,7 +32,6 @@ Requirements
 - Run your experiment with 10 or more participants.  
     - Grab your friends or people in the class.  
     - Run at least 20 trials per visualization type. If you have 3 visualizations, run at least 60 random trials.
-- Bonus: if you implement a [Latin Square design](http://en.wikipedia.org/wiki/Latin_square) to ensure that the 60 trials are counterbalanced, we’ll give you a bonus.
 - Make sure to save the resulting CSV after each participant. Compile the results into a master csv file (all participants, all trials).
 - Produce a README with figures that shows the visualizations you tested and results, ordered by best performance to worst performance.
 - To obtain the ranking, calculate and report the average Error for each visualization across all trials and participants. This should be straightforward to do in a spreadsheet.
@@ -91,25 +84,6 @@ GitHub Details
 - Fork the GitHub Repository. You now have a copy associated with your username.
 - Make changes to index.html to fulfill the project requirements. 
 - Make sure your "master" branch matches your "gh-pages" branch. See the GitHub Guides referenced above if you need help.
-- Edit the README.md with a link to your gh-pages site: http://YourUsernameGoesHere.github.io/05-Experiment/index.html
+- Edit this README.md with a link to your gh-pages site: e.g. http://YourUsernameGoesHere.github.io/Experiment/index.html
+- Replace this file (README.md) with your writeup and Design/Technical achievements.
 - To submit, make a [Pull Request](https://help.github.com/articles/using-pull-requests/) on the original repository.
-
-Grading
----
-
-Grades on a 100 point scale 100 points will be graded for functionality: the program does what the assignment requests. 
-
-I will use Google Chrome to view submissions. Be sure to test your code there.
-
-Total -- 100
-
-(0 will be assigned if the code won't run.)
-
-Functionality -- 80
-
-80 -- Experiment loads and works with no obvious bugs or design flaws; Experiment results reported with no obvious flaws (i.e. too few participants, data suspiciously different than original results with no explanation as to why it differs, etcetera) 
-
-Writeup -- 20
-
-10 -- Description of technical achievements    
-10 -- Description of design achievements  
