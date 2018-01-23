@@ -53,7 +53,7 @@ Background
 ---
 
 In 1984, William Cleveland and Robert McGill published the results of several controlled experiments that pitted bar charts against pies and stacked-bar variants. 
-Their paper (http://www.cs.ubc.ca/~tmm/courses/cpsc533c-04-spr/readings/cleveland.pdf) is considered a seminal paper in data visualization.
+Their paper (http://www.cs.ubc.ca/~tmm/courses/cpsc533c-04-spr/readings/cleveland.pdf) (http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf) is considered a seminal paper in data visualization.
 In particular, they ran a psychology-style experiment where users were shown a series of randomly-generated charts with two graphical elements marked like this:
 
 ![cleveland bar chart](img/cleveland-bar.png)
